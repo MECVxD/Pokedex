@@ -1,0 +1,49 @@
+body {
+    background: #DEDEDE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.6em;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    z-index: 1;
+  }
+
+.header {
+    background:  #DC0A2D;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+
+  .container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+
+  main {
+    background: #8C072B;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 1em;
+    text-align: center;
+  }
+
+  #pokeName:first-letter{
+      text-transform: uppercase;
+  }
+  .window{
+      background: #000;
+  }
+
+  input {
+    margin-top: 1em;
+  }

@@ -5,7 +5,10 @@ async function getPokeInfo(id) {
 }
 
 async function init() {
-  const pokemon = await getPokeInfo(150);
+  const firtsPokemon = 1;
+  const lastPokemon = 898;
+  displayPokemon= parseInt(Math.random() * (lastPokemon - firtsPokemon) + firtsPokemon);
+  const pokemon = await getPokeInfo(displayPokemon);
   window.pokeImage.setAttribute("src", pokemon.sprites.front_default);
   window.pokeName.textContent = pokemon.name;
 }
